@@ -19,7 +19,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
       ),
-      home:const ResponsiveLayout(mobileScreenLayout: MobileLayoutScreen(), webScreenLayout: WebScreenLayout()),
+      //is responsive and greater than 938 gives web app layout else mobile screen layout 
+       
+      home: const ResponsiveLayout(
+          mobileScreenLayout: MobileLayoutScreen(),
+          webScreenLayout: WebScreenLayout()),
     );
   }
 }
