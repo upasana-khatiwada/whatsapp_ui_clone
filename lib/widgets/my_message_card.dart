@@ -51,12 +51,14 @@ class MyMessageCard extends StatelessWidget {
                             color: Colors.white60,
                           ),
                         ),
-                        const SizedBox(width: 5,),
+                        const SizedBox(
+                          width: 5,
+                        ),
                         const Icon(
-                      Icons.done_all,
-                      size: 20,
-                      color: Colors.white60,
-                    ),
+                          Icons.done_all_sharp,
+                          size: 14,
+                          color: Colors.white60,
+                        ),
                       ],
                     ))
               ],
